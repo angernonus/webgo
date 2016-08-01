@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="/login" method="post">
+            Username:<input type="text" name="username">
+            Password:<input type="password" name="password">
+            <input type="submit" value="Login">
+        </form>
+    </body>
 </html>
